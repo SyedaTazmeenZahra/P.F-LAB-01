@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
  int ms_bt = 4000;
- int ms_at = ms_bt * (1-0.1);
+ float ms_at = ms_bt * (1-0.1);
  int as_bt = ms_bt * 12;
  int as_at = ms_at * 12;
  
